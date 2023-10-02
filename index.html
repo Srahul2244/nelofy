@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <title>Innoloft</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <div class=" bg-[#272E71] h-[50px] flex items-center">
+        <div class="w-[80%] mx-auto flex justify-between items-center">
+            <div class="md:w-[25%]">
+                <img src="./images/Logo.svg" />
+            </div>
+            <div class="md:flex hidden md:w-[60%] relative">
+                <input type="text" placeholder="Search keyword, company name, etc."
+                    class="w-96 h-8 border-1 border-blue-800  rounded-md " />
+                <img src="./images/search.png" alt="" class="h-5 absolute top-2 left-[360px] " />
+            </div>
+
+
+            <div class="md:flex hidden md:w-[15%] justify-between">
+                <!-- icon here -->
+                <img src="./images/inno_messenger.png" class="w-[20px] h-[20px]" />
+                <img src="./images/inno_notifications.png" class="w-[20px] h-[20px]" />
+                <img src="./images/profil 1.png" class="w-[20px] h-[20px] rounded-full" />
+            </div>
+
+        </div>
+    </div>
+
+    <!-- hero section -->
+    <div class="mt-5">
+        <div class="w-[80%] mx-auto flex justify-between ">
+            <div class="w-[25%]  md:flex-row profile-logo-hidden ">
+                <div class="flex items-center space-x-3 ">
+                    <div>
+                        <img src="./images/profil 1.png" class="rounded-full" />
+                    </div>
+                    <div>
+                        <p class="text-[16px] leading-[20px] font-semibold">Sven Pietsch</p>
+                        <p class="text-[14px] leading-[20px] ">Innoloft GmbH</p>
+                    </div>
+                </div>
+                <div class="flex items-center  mt-5">
+                    <div class="mx-3">
+                        <img src="./images/inno_home.png" />
+                    </div>
+                    <div>
+                        <p class="text-[14px] font-serif text-gray-400">Home</p>
+
+                    </div>
+                </div>
+                <div class="flex items-center  mt-3">
+                    <div class="mx-3">
+                        <img src="./images/inno_group.png" />
+                    </div>
+                    <div>
+                        <p class="text-[14px] font-serif text-gray-400">Members</p>
+
+                    </div>
+                </div>
+                <div class="flex items-center  mt-3">
+                    <div class="mx-3">
+                        <img src="./images/inno_organizations.png" />
+                    </div>
+                    <div class="flex gap-2 items-center">
+                        <p class="text-[14px] font-serif text-gray-400">Organizations</p>
+                        <div>
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.y7QDOgaEOQXhYV5dJqPzJQAAAA&pid=Api&P=0&h=180"
+                                class="h-3 mx-10" alt="down" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="md:w-[75%] w-full ">
+                <div class="flex justify-between  flex-col lg:flex-row mt-2">
+                    <p class="text-[16px] leading-[24px] font-semibold mt-4 text text-[#374151]">Offer
+                        Tiltle</p>
+                    <button
+                        class="bg-blue-500 hover:bg-blue-700 text-white font-semibold h-10 w-28 flex justify-center items-center rounded-md my-2"
+                        style="background-color: rgba(39, 46, 113, 1);">
+                        View Offer
+                    </button>
+                </div>
+                <div class=" border flex offer-direction rounded">
+                    <div class="relative md:w-[70%] w-full border">
+                        <img src="./images/aa0e8a1237e901bddfd1579193f8c436.png" alt="Image" class="w-full">
+                        <div class="absolute top-0 left-0 flex">
+                            <div class="h-10 w-14 flex items-center justify-center"
+                                style="background-color: rgba(39, 46, 113, 1)">
+                                <img src="./images/Icon.png" />
+                            </div>
+                            <div class="w-24 h-10 border-2 border-white flex items-center justify-center bg-white">
+                                Patent</div>
+                        </div>
+                        <div class="absolute top-0 right-0  bg-white p-2">
+                            <img src="./images/inno_delete.png" class="w-[100%] h-[100%]" />
+                        </div>
+                        <div class="flex items-center">
+                            <p
+                                class="rounded mt-5 border w-[50rem] md:h-8 h-auto mx-8 p-1 px-3 text-[16px] leading-[24px]font-bold">
+                                Intelligent Finite Elements in
+                                Structural mechanics</p>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="rounded mt-5 border w-[50rem] md:h-[330px] h-auto mx-8 mb-5">
+                                <img src="./images/Bildschirmfoto 2022-09-09 um 14.02 1.png" class="px-2" />
+                                <p class="pt-2 p-5 text-[14px] leading-[24px] text-gray-400">In structural mechanics,
+                                    the Finite
+                                    Element Method is used tosimulate structural deformations and loads,
+                                    e.g. for the design of components in mechanicalor civil engineering.
+                                    The more complex the structural deformations are, the longer
+                                    simulation times associated with convergence problems can last. This is where the
+                                    present invention comes in, by combining the classical Finite Element Method with
+                                    artificial intelligence. This is the first method in the literature that
+                                    improves simulation times and convergence properties in this way.
+                                    Further information you can find in the attached technology offer. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="p-5">
+                            <div>
+                                <p class="text-[16px] leading-[24px] font-semibold ">Offered by</p>
+                            </div>
+                            <div class="mt-2">
+                                <img src="./images/Logogroup.svg" />
+                            </div>
+                            <div class="flex items-center space-x-3 mt-2">
+                                <div>
+                                    <img src="./images/profil 1.png" class="rounded-full" />
+                                </div>
+                                <div>
+                                    <p class="text-[14px] leading-[20px] font-semibold">Sven Pietsch</p>
+                                    <p class="text-[14px] leading-[20px] ">Innoloft GmbH</p>
+                                </div>
+                            </div>
+                            <div class="flex   mt-5">
+                                <div class="mx-3 mt-2">
+                                    <img src="./images/inno_location.png" class="w-[30px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[14px] leading-[20px]">Jülicher Straße 72a,  52070 Aachen, Germany
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="h-[120px] mt-5 border rounded">
+                    <div class="p-8 ">
+                        <p>Video</p>
+                        <input type="text  " placeholder="Add a video link" class="w-full p-2 border rounded mt-2" />
+                    </div>
+                </div>
+                <div class="h-[120px] mt-5 border rounded">
+                    <div class="p-8 ">
+                        <p>Offer details</p>
+                        <p class="mt-3 text-red-500">This is up to you :)</p>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Open Sans';
+}
+
+@media screen and (max-width:850px){
+    .profile-logo-hidden{
+        display: none;
+        background-color: red;
+    }
+    .offer-direction{
+        display: flex;
+        flex-direction: column;
+    }
+}
